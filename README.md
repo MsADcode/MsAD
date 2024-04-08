@@ -3,17 +3,19 @@
 main.py
 
 ## datasets
-(1)Simulation Dataset
-sim1.txt:5 nodes
-sim2.txt:10 nodes
-sim3.txt:15 nodes
-sim4.txt:50 nodes
-(2)Synthetic Dataset
-sim200.csv:200 nodes
-sim500.csv:500 nodes
-(3)Real World fMRI Dataset
-ALLASD1_cc200-nor.txt: normal 
-ALLASD1_cc200-pat.txt: patient
+(1)**Simulation Dataset**  
+sim1.txt: 5 nodes  
+sim2.txt: 10 nodes  
+sim3.txt: 15 nodes  
+sim4.txt: 50 nodes  
+
+(2)**Synthetic Dataset**  
+sim200.csv: 200 nodes  
+sim500.csv: 500 nodes    
+
+(3)**Real World fMRI Dataset**  
+ALLASD1_cc200-nor.txt: normal   
+ALLASD1_cc200-pat.txt: patient  
 
 ## Install Requirements
 
