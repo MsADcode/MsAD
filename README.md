@@ -13,9 +13,6 @@ sim4.txt: 50 nodes
 sim200.csv: 200 nodes  
 sim500.csv: 500 nodes    
 
-(3)**Real World fMRI Dataset**  
-ALLASD1_cc200-nor.txt: normal   
-ALLASD1_cc200-pat.txt: patient  
 
 ## Install Requirements
 
