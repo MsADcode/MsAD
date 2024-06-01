@@ -76,7 +76,7 @@ def main():
     if X.shape[1] == 5:
         partition = {0: 0, 1: 0, 2: 0, 3: 0, 4: 0}
     else:
-        partition = community.best_partition(graph, resolution=math.tanh(3 / np.sqrt(n_nodes)), random_state=42)
+        partition = community.best_partition(graph, random_state=42)
     print(partition)
     community_ids = set(partition.values())
     num_communities = len(community_ids)
