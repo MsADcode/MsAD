@@ -76,12 +76,12 @@ def main():
     if X.shape[1] == 5:
         partition = {0: 0, 1: 0, 2: 0, 3: 0, 4: 0}
     else:
-        partition = community.best_partition(graph, random_state=42)
-    print(partition)
+        partition = community.best_partition(graph, resolution=math.tanh(1 / np.sqrt(n_nodes)), random_state=42)
+   
     community_ids = set(partition.values())
     num_communities = len(community_ids)
     adj_all = np.zeros((subject_num, n_nodes, n_nodes))
-    print(num_communities)
+  
     for community_id in range(num_communities):
         nodes_with_id = [[key for key, value in partition.items() if value == community_id]]
         subX = X[:, nodes_with_id].squeeze()
